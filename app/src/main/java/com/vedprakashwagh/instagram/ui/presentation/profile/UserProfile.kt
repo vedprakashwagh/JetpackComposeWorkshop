@@ -26,12 +26,6 @@ fun UserProfile(
     modifier: Modifier
 ) {
 
-    val systemUiController = rememberSystemUiController()
-
-    LaunchedEffect(key1 = Unit, block = {
-        systemUiController.setSystemBarsColor(Color.White)
-    })
-
     Column(modifier = modifier) {
         UsernameToolbar(modifier = Modifier.fillMaxWidth(), username = "chloewest28")
     }

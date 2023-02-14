@@ -20,6 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.vedprakashwagh.instagram.ui.presentation.homescreen.Homescreen
 import com.vedprakashwagh.instagram.ui.presentation.profile.UserProfile
 import com.vedprakashwagh.instagram.ui.theme.InstagramTheme
 import java.security.KeyStore.Entry
@@ -34,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    UserProfile(modifier = Modifier.fillMaxSize())
+                    Homescreen(modifier = Modifier.fillMaxSize())
                 }
             }
         }

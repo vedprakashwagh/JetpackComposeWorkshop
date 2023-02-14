@@ -60,6 +60,10 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+    implementation "androidx.compose.material:material-icons-extended:$compose_version"
 
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.29.1-alpha")
+
+    //Coil for image loading
+    implementation("io.coil-kt:coil-compose:2.2.2")
 }
